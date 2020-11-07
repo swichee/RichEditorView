@@ -265,6 +265,15 @@ RE.insertLink = function(url, title) {
             sel.removeAllRanges();
             sel.addRange(range);
         }
+    } else {
+        var el = document.createElement("a");
+        var text = document.createTextNode(title);
+        el.appendChild(text);
+
+        el.setAttribute("href", url);
+        el.setAttribute("title", title);
+
+        RE.insertHTML(el.outerHTML);
     }
     RE.callback("input");
 };
