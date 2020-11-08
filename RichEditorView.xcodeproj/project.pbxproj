@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39FC98FB1DC788A1008FE5DD /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FC98F91DC788A1008FE5DD /* String+Extensions.swift */; };
-		39FC98FC1DC788A1008FE5DD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FC98FA1DC788A1008FE5DD /* UIColor+Extensions.swift */; };
-		947A71A11C0F9DED00BDF9FC /* UIView+Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A71A01C0F9DED00BDF9FC /* UIView+Responder.swift */; };
-		FBA6AAFF1AD3EC9F00721644 /* RichEditorView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA6AAFE1AD3EC9F00721644 /* RichEditorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF42A7C2556B51C003D9085 /* RichEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF42A772556B51C003D9085 /* RichEditorView.swift */; };
+		CBF42A7D2556B51C003D9085 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF42A782556B51C003D9085 /* String+Extensions.swift */; };
+		CBF42A7E2556B51C003D9085 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF42A792556B51C003D9085 /* UIColor+Extensions.swift */; };
+		CBF42A7F2556B51C003D9085 /* RichEditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF42A7A2556B51C003D9085 /* RichEditorToolbar.swift */; };
+		CBF42A802556B51C003D9085 /* RichEditorOptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF42A7B2556B51C003D9085 /* RichEditorOptionItem.swift */; };
 		FBA6AB051AD3EC9F00721644 /* RichEditorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA6AAF91AD3EC9F00721644 /* RichEditorView.framework */; };
 		FBA6AB0C1AD3EC9F00721644 /* RichEditorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB0B1AD3EC9F00721644 /* RichEditorViewTests.swift */; };
 		FBA6AB4F1AD3ED2D00721644 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = FBA6AB191AD3ED2D00721644 /* normalize.css */; };
@@ -65,11 +66,6 @@
 		FBA6AB801AD3ED2D00721644 /* underline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA6AB4B1AD3ED2D00721644 /* underline@2x.png */; };
 		FBA6AB811AD3ED2D00721644 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA6AB4C1AD3ED2D00721644 /* undo.png */; };
 		FBA6AB821AD3ED2D00721644 /* undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA6AB4D1AD3ED2D00721644 /* undo@2x.png */; };
-		FBA6AB881AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA6AB831AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBA6AB891AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB841AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.m */; };
-		FBA6AB8A1AD3ED3C00721644 /* RichEditorOptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB851AD3ED3C00721644 /* RichEditorOptionItem.swift */; };
-		FBA6AB8B1AD3ED3C00721644 /* RichEditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB861AD3ED3C00721644 /* RichEditorToolbar.swift */; };
-		FBA6AB8C1AD3ED3C00721644 /* RichEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6AB871AD3ED3C00721644 /* RichEditorView.swift */; };
 		FBA6ABC51AD3FD2E00721644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA6ABC41AD3FD2E00721644 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,12 +80,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39FC98F91DC788A1008FE5DD /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "Classes/String+Extensions.swift"; sourceTree = "<group>"; };
-		39FC98FA1DC788A1008FE5DD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Classes/UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		947A71A01C0F9DED00BDF9FC /* UIView+Responder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Responder.swift"; path = "Classes/UIView+Responder.swift"; sourceTree = "<group>"; };
+		CBF42A772556B51C003D9085 /* RichEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorView.swift; sourceTree = "<group>"; };
+		CBF42A782556B51C003D9085 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CBF42A792556B51C003D9085 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		CBF42A7A2556B51C003D9085 /* RichEditorToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorToolbar.swift; sourceTree = "<group>"; };
+		CBF42A7B2556B51C003D9085 /* RichEditorOptionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorOptionItem.swift; sourceTree = "<group>"; };
 		FBA6AAF91AD3EC9F00721644 /* RichEditorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RichEditorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA6AAFD1AD3EC9F00721644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBA6AAFE1AD3EC9F00721644 /* RichEditorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichEditorView.h; sourceTree = "<group>"; };
 		FBA6AB041AD3EC9F00721644 /* RichEditorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichEditorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA6AB0A1AD3EC9F00721644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBA6AB0B1AD3EC9F00721644 /* RichEditorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichEditorViewTests.swift; sourceTree = "<group>"; };
@@ -146,12 +143,6 @@
 		FBA6AB4B1AD3ED2D00721644 /* underline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underline@2x.png"; sourceTree = "<group>"; };
 		FBA6AB4C1AD3ED2D00721644 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
 		FBA6AB4D1AD3ED2D00721644 /* undo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo@2x.png"; sourceTree = "<group>"; };
-		FBA6AB831AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CJWWebView+HackishAccessoryHiding.h"; path = "Classes/CJWWebView+HackishAccessoryHiding.h"; sourceTree = "<group>"; };
-		FBA6AB841AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CJWWebView+HackishAccessoryHiding.m"; path = "Classes/CJWWebView+HackishAccessoryHiding.m"; sourceTree = "<group>"; };
-		FBA6AB851AD3ED3C00721644 /* RichEditorOptionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RichEditorOptionItem.swift; path = Classes/RichEditorOptionItem.swift; sourceTree = "<group>"; };
-		FBA6AB861AD3ED3C00721644 /* RichEditorToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RichEditorToolbar.swift; path = Classes/RichEditorToolbar.swift; sourceTree = "<group>"; };
-		FBA6AB871AD3ED3C00721644 /* RichEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RichEditorView.swift; path = Classes/RichEditorView.swift; sourceTree = "<group>"; };
-		FBA6AB951AD3F3E700721644 /* RichEditorView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RichEditorView-Bridging-Header.h"; sourceTree = "<group>"; };
 		FBA6ABC41AD3FD2E00721644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -175,6 +166,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBF42A762556B51C003D9085 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBF42A772556B51C003D9085 /* RichEditorView.swift */,
+				CBF42A782556B51C003D9085 /* String+Extensions.swift */,
+				CBF42A792556B51C003D9085 /* UIColor+Extensions.swift */,
+				CBF42A7A2556B51C003D9085 /* RichEditorToolbar.swift */,
+				CBF42A7B2556B51C003D9085 /* RichEditorOptionItem.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		FBA6AAEF1AD3EC9F00721644 = {
 			isa = PBXGroup;
 			children = (
@@ -198,8 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				FBA6AB161AD3ED1B00721644 /* Assets */,
-				FBA6AB151AD3ED1700721644 /* Classes */,
-				FBA6AAFE1AD3EC9F00721644 /* RichEditorView.h */,
+				CBF42A762556B51C003D9085 /* Classes */,
 				FBA6AAFC1AD3EC9F00721644 /* Supporting Files */,
 			);
 			path = RichEditorView;
@@ -209,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				FBA6AAFD1AD3EC9F00721644 /* Info.plist */,
-				FBA6AB951AD3F3E700721644 /* RichEditorView-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,21 +230,6 @@
 				FBA6AB0A1AD3EC9F00721644 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FBA6AB151AD3ED1700721644 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FBA6AB831AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.h */,
-				FBA6AB841AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.m */,
-				FBA6AB851AD3ED3C00721644 /* RichEditorOptionItem.swift */,
-				FBA6AB861AD3ED3C00721644 /* RichEditorToolbar.swift */,
-				FBA6AB871AD3ED3C00721644 /* RichEditorView.swift */,
-				39FC98F91DC788A1008FE5DD /* String+Extensions.swift */,
-				39FC98FA1DC788A1008FE5DD /* UIColor+Extensions.swift */,
-				947A71A01C0F9DED00BDF9FC /* UIView+Responder.swift */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		FBA6AB161AD3ED1B00721644 /* Assets */ = {
@@ -331,8 +317,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA6AAFF1AD3EC9F00721644 /* RichEditorView.h in Headers */,
-				FBA6AB881AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +374,6 @@
 					};
 					FBA6AB031AD3EC9F00721644 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = XATA46WWFJ;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -488,13 +471,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA6AB8A1AD3ED3C00721644 /* RichEditorOptionItem.swift in Sources */,
-				FBA6AB8B1AD3ED3C00721644 /* RichEditorToolbar.swift in Sources */,
-				FBA6AB891AD3ED3C00721644 /* CJWWebView+HackishAccessoryHiding.m in Sources */,
-				FBA6AB8C1AD3ED3C00721644 /* RichEditorView.swift in Sources */,
-				39FC98FC1DC788A1008FE5DD /* UIColor+Extensions.swift in Sources */,
-				39FC98FB1DC788A1008FE5DD /* String+Extensions.swift in Sources */,
-				947A71A11C0F9DED00BDF9FC /* UIView+Responder.swift in Sources */,
+				CBF42A802556B51C003D9085 /* RichEditorOptionItem.swift in Sources */,
+				CBF42A7D2556B51C003D9085 /* String+Extensions.swift in Sources */,
+				CBF42A7E2556B51C003D9085 /* UIColor+Extensions.swift in Sources */,
+				CBF42A7F2556B51C003D9085 /* RichEditorToolbar.swift in Sources */,
+				CBF42A7C2556B51C003D9085 /* RichEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +653,8 @@
 		FBA6AB131AD3EC9F00721644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = XATA46WWFJ;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -688,7 +670,8 @@
 		FBA6AB141AD3EC9F00721644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = XATA46WWFJ;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RichEditorViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cjwirth.$(PRODUCT_NAME:rfc1034identifier)";
